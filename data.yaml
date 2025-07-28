@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bill', 'months', 'ref', 'units']
+
+roboflow:
+  workspace: my-workspace-rwyoa
+  project: bills-jsjwg-kmgeb
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/my-workspace-rwyoa/bills-jsjwg-kmgeb/1
